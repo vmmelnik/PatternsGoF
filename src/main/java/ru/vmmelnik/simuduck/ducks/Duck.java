@@ -2,7 +2,7 @@ package ru.vmmelnik.simuduck.ducks;
 
 /**
  * @author vmmelnik
- * @version 0.1
+ * @version 0.2
  * Abstract superclass Duck
  */
 public abstract class Duck {
@@ -16,5 +16,9 @@ public abstract class Duck {
 	}
 
 	public abstract void display();
+
+	public void fly() {
+		System.out.printf("%s flying", getClass().getSimpleName());
+	}
 
 }

@@ -4,7 +4,7 @@ public class MallardDuck extends Duck {
 
 	@Override
 	public void display() {
-		System.out.printf("I'm %s", getClass().getSimpleName());
+		System.out.println("I'm MallardDuck");
 	}
 
 }
