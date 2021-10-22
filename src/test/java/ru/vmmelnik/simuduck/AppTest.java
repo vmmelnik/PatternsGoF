@@ -1,4 +1,4 @@
-package org.example;
+package ru.vmmelnik.simuduck;
 
 import static org.junit.Assert.assertTrue;
 
