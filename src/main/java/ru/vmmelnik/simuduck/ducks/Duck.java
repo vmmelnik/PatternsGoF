@@ -1,14 +1,20 @@
 package ru.vmmelnik.simuduck.ducks;
 
+import ru.vmmelnik.simuduck.behaviors.FlyBehavior;
+import ru.vmmelnik.simuduck.behaviors.QuackBehavior;
+
 /**
  * @author vmmelnik
- * @version 0.2
+ * @version 0.3
  * Abstract superclass Duck
  */
 public abstract class Duck {
 
-	public void quack() {
-		System.out.println("Quack!");
+	FlyBehavior flyBehavior;
+	QuackBehavior quackBehavior;
+
+	public void performQuack() {
+		flyBehavior.fly();
 	}
 
 	public void swim() {
@@ -17,8 +23,15 @@ public abstract class Duck {
 
 	public abstract void display();
 
-	public void fly() {
-		System.out.printf("%s flying", getClass().getSimpleName());
+	public void performFly() {
+		quackBehavior.quack();
+	}
+
+	public void doAll() {
+		display();
+		performQuack();
+		performFly();
+		swim();
 	}
 
 }
