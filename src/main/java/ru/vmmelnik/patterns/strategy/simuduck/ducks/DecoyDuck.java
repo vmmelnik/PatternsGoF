@@ -1,7 +1,7 @@
-package ru.vmmelnik.simuduck.ducks;
+package ru.vmmelnik.patterns.strategy.simuduck.ducks;
 
-import ru.vmmelnik.simuduck.behaviors.FlyNoWay;
-import ru.vmmelnik.simuduck.behaviors.MuteQuack;
+import ru.vmmelnik.patterns.strategy.simuduck.behaviors.FlyNoWay;
+import ru.vmmelnik.patterns.strategy.simuduck.behaviors.MuteQuack;
 
 public class DecoyDuck extends Duck {
 

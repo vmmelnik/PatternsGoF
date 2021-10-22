@@ -1,7 +1,7 @@
-package ru.vmmelnik.simuduck.ducks;
+package ru.vmmelnik.patterns.strategy.simuduck.ducks;
 
-import ru.vmmelnik.simuduck.behaviors.FlyWithWings;
-import ru.vmmelnik.simuduck.behaviors.Quack;
+import ru.vmmelnik.patterns.strategy.simuduck.behaviors.FlyWithWings;
+import ru.vmmelnik.patterns.strategy.simuduck.behaviors.Quack;
 
 public class MallardDuck extends Duck {
 

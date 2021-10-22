@@ -1,4 +1,4 @@
-package ru.vmmelnik.simuduck.behaviors;
+package ru.vmmelnik.patterns.strategy.simuduck.behaviors;
 
 public class FlyWithWings implements FlyBehavior {
 
